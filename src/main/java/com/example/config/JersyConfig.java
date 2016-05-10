@@ -15,7 +15,7 @@ public class JersyConfig extends ResourceConfig {
 
     public JersyConfig() {
         // Scan APIs under package recursively
-        packages(true, "com/example/resource");
+        packages(true, "com.example.resource");
         // Register Swagger endpoint for /swagger.json and /swagger.yaml to get REST specification
     }
 }
