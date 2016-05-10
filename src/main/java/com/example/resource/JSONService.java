@@ -1,4 +1,4 @@
-package resource;
+package com.example.resource;
 
 
 import object.Track;

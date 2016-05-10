@@ -1,8 +1,8 @@
-package config;
+package com.example.config;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
-import resource.JSONService;
+import com.example.resource.JSONService;
 
 import javax.ws.rs.ApplicationPath;
 
@@ -15,8 +15,7 @@ public class JersyConfig extends ResourceConfig {
 
     public JersyConfig() {
         // Scan APIs under package recursively
-        packages(true, "resource");
+        packages(true, "com/example/resource");
         // Register Swagger endpoint for /swagger.json and /swagger.yaml to get REST specification
-        register(JSONService.class);
     }
 }
