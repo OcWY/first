@@ -1,0 +1,5 @@
+com/example/ServletContainerCustomizer.class
+resource/JSONService.class
+object/Track.class
+com/example/DemoApplication.class
+config/JersyConfig.class
